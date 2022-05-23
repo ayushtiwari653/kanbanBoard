@@ -1,0 +1,40 @@
+.TaskButton {
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    cursor: pointer; 
+    height: 50px;
+    width: 100px;
+}
+
+.Task_Button {
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    cursor: pointer; 
+    height: 30px;
+    width: 100px;
+
+}
+
+.form-group input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+.form-group{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+
