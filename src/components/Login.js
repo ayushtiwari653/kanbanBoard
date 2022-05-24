@@ -27,12 +27,18 @@ function LoginForm() {
     
       }
       function LoginFun(){
-        if(document.getElementById("email").value=="ayushT@gmail.com" && document.getElementById("password").value=="adm@123"){
-            window.location.href= "http://localhost:3000/dashboard";
-        }
-        else{
-            alert("Username and Password does not matched!");
-        }
+        const axios = require('axios').default;
+
+        axios.post('https://gorest.co.in/public/v2/users', {
+            firstName: 'Fred',
+            lastName: 'Flintstone'
+          })
+          .then(function (response) {
+            console.log(response);
+          })
+          .catch(function (error) {
+            console.log(error);
+          });
     }
 
     return(
